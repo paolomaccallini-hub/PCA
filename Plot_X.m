@@ -5,7 +5,7 @@
 % Plot 3D data and principal axes with respect to original axes
 %-------------------------------------------------------------------------------
 %
-function Plot_X(vectorX,P,lambda,mu,f)
+function Plot_X(vectorX,P,lambda,mu)
 subplot(2,2,1)
 tilted_ellipsoid(lambda,P,mu) # plot the ellipsoid
 hold on
