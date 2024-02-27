@@ -3,7 +3,6 @@
 close all
 clear all
 pkg load statistics
-f=0; % it indicates the number of the figure
 %
 % Set means, standard deviations, and correlations
 %
@@ -23,9 +22,8 @@ n=300 % number of values generated
 %
 % Plot data and principal axes with respect to original axes
 %
-Plot_X(vectorX,P,lambda,mu,f)
+Plot_X(vectorX,P,lambda,mu)
 %
 % Plot data with respect to principal planes
 %
-f=f+1;
-Plot_Y(vectorX,P,lambda,mu,f)
+Plot_Y(vectorX,P,lambda,mu)
