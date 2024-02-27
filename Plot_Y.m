@@ -5,7 +5,7 @@
 % Plot data with respect to principal planes
 %-------------------------------------------------------------------------------
 %
-function Plot_Y(vectorX,P,lambda,mu,f)
+function Plot_Y(vectorX,P,lambda,mu)
 %
 % Coordinates Y of the data
 %
